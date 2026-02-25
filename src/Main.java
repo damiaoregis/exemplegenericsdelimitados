@@ -13,7 +13,7 @@ import java.io.IOException;
 void main() {
 
     List<Product> list = new ArrayList<>();
-    String path = "C:\\Users\\damia\\IdeaProjects\\exemplegenericsdelimitados\\src\\in.txt";
+    String path = "\\in.txt";
     try (BufferedReader br = new BufferedReader(new FileReader(path))) {
         String line = br.readLine();
         while (line != null) {
